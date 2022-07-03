@@ -8,7 +8,7 @@ const Header = () => (
             <span>Aplicaciones Distribuidas</span>
         </h1>
         <p>
-            7mo Software
+            Blog dedicado a los conocimientos aprendidos en 7mo Software!
         </p>
 
     </header>

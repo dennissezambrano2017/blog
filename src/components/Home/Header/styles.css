@@ -2,7 +2,11 @@
     text-align: center;
 }
 .home-header h2{
+<<<<<<< Updated upstream
     color: #39cb42;
+=======
+    color: #029307;
+>>>>>>> Stashed changes
     font-size: 2rem;
 }
 .home-header h1{
@@ -11,7 +15,7 @@
     margin-bottom: 1rem;
 }
 .home-header h1 span{
-    color: #b0c4de;
+    color: #7991b1;
 }
 
 .home-header p{
