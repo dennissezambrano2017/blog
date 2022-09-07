@@ -114,10 +114,13 @@ export const blogList = [
       subCategory: ['Comunicación', 'Flujos', 'Streams'],
       description:
         "Para entender los Web Sockets, son considerados como una conexión bidireccional punto a punto entre un navegador y su servidor, de tal manera que ambas partes se puedan enviar mensajes. Para la parte del cliente no resulta ninguna innovación pero para la parte del servidor sí ya que permite enviar información al cliente sin obligar a este a realizar peticiones AJAX cada x segundos.",
-      authorName: 'PAOLA ZAMBRANO',
+      description2: "Detalle completo",
+        authorName: 'PAOLA ZAMBRANO',
       authorAvatar: '/assets/images/paola.jpeg',
       createdAt: '21 de junio/2022',
-      cover: '/assets/images/apps7.jpg',
+      cover: 'url cover',
+      refer: ['google.com', 'Flujos', 'Streams'],
+      imgs: ['url imágenes del post', '', ''],
     },
   ];
   
