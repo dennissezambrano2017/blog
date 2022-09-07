@@ -35,7 +35,36 @@
     margin: 1rem;
   }
   .blog-desc {
-    padding: 1rem;
-    margin-top: 1.5rem;
-    margin-bottom: 3rem;
+    padding: 5px;    
+    text-align: justify;
+    font-size: medium;
+  }
+  .blog-refer{
+    text-align: justify;
+  }
+  .blog-imag{
+    text-align: center;
+    width: 75%;
+    margin: auto;
+  }
+  .parrai{
+    list-style: 1.5;
+  }
+  .parrai img{
+    width: 310px;
+    float: left;
+    margin-right: 15px;
+    border-radius: 5%;
+    margin: 10px;
+  }
+
+  .parrad{
+    list-style: 1.5;
+  }
+  .parrad img{
+    width: 310px;
+    float: right;
+    margin-right: 15px;
+    border-radius: 5%;
+    margin: 10px;
   }

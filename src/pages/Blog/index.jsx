@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import { blogList } from '../../config/data';
 import Chip from '../../components/common/Chip';
+import Referencs from '../../components/common/Referencs';
+import Details from '../../components/common/two_Details';
 import EmptyList from '../../components/common/EmptyList';
 import Footer from '../../components/Home/Footer';
 import './styles.css';
@@ -36,8 +38,31 @@ const Blog = () => {
               ))}
             </div>
           </header>
-          <img src={blog.cover} alt='cover' />
-          <p className='blog-desc'>{blog.description}</p>
+          <div>
+            <div className='blog-imag' >
+              <img src={blog.cover} alt='' />
+            </div>
+            <div className='blog-desc'>
+              <p >{blog.description}</p>
+              <p >{blog.description}</p>
+              <div>
+                <Details label={blog.description2} />
+              </div>
+              <div className='parrai'>
+                <img src="https://loremflickr.com/320/240" alt="" />
+                <Details label={blog.description2} />
+                <Details label={blog.description2} />
+                <Details label={blog.description2} />
+              </div>
+              <div className='parrad'>
+                <img src="https://loremflickr.com/320/240" alt="" />
+                <Details label={blog.description2} />
+                <Details label={blog.description2} />
+                <Details label={blog.description2} />
+              </div>
+            </div>
+          </div>
+
 
           {/*Pie de página*/}
           <Footer />
