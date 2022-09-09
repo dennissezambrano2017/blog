@@ -3,6 +3,7 @@ import { useParams } from 'react-router';
 import { blogList } from '../../config/data';
 import EmptyList from '../../components/common/EmptyList';
 import Chip from '../../components/common/Chip';
+import Referencs from '../../components/common/Referencs';
 import Footer from '../../components/Home/Footer';
 import './styles.css';
 import { Link } from 'react-router-dom';
@@ -55,7 +56,14 @@ const Blog = () => {
               </div>
             </div>
           </div>
-
+          <div className='blog-refer'>
+            <h2> Referencias:</h2> 
+              {blog.refer.map((refer, i) => (
+                <div key={i}>
+                  <Referencs label={refer} /><br />
+                </div>
+              ))}
+            </div>
 
           {/*Pie de página*/}
           <Footer />
