@@ -49,6 +49,7 @@ const Blog = () => {
                 <Details label={blog.description2} />
               </div>
               <div className='parrai'>
+                <img label={blog.img} alt="" />
                 <img src="https://loremflickr.com/320/240" alt="" />
                 <Details label={blog.description2} />
                 <Details label={blog.description2} />
