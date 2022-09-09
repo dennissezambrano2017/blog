@@ -58,6 +58,11 @@
     margin: 10px;
   }
 
+  .detail {
+    text-align: justify;
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
+  }
   .parrad{
     list-style: 1.5;
   }

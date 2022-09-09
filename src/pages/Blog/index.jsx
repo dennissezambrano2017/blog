@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import { blogList } from '../../config/data';
-import Chip from '../../components/common/Chip';
-import Referencs from '../../components/common/Referencs';
-import Details from '../../components/common/two_Details';
 import EmptyList from '../../components/common/EmptyList';
+import Chip from '../../components/common/Chip';
 import Footer from '../../components/Home/Footer';
 import './styles.css';
 import { Link } from 'react-router-dom';
@@ -40,26 +38,20 @@ const Blog = () => {
           </header>
           <div>
             <div className='blog-imag' >
-              <img src={blog.cover} alt='' />
+              <img src={blog.cover} alt='' /><br />
             </div>
             <div className='blog-desc'>
-              <p >{blog.description}</p>
-              <p >{blog.description}</p>
-              <div>
-                <Details label={blog.description2} />
+              <p className='detail'>{blog.description}</p>
+              <div className='blog-imag' >
+                <img src={blog.imgs1} alt='' /><br />
               </div>
-              <div className='parrai'>
-                <img label={blog.img} alt="" />
-                <img src="https://loremflickr.com/320/240" alt="" />
-                <Details label={blog.description2} />
-                <Details label={blog.description2} />
-                <Details label={blog.description2} />
+              <p className='detail'>{blog.description2}</p>
+              <div className='blog-imag' >
+                <img src={blog.imgs2} alt='' /><br />
               </div>
-              <div className='parrad'>
-                <img src="https://loremflickr.com/320/240" alt="" />
-                <Details label={blog.description2} />
-                <Details label={blog.description2} />
-                <Details label={blog.description2} />
+              <p className='detail'>{blog.description3}</p>
+              <div className='blog-imag' >
+                <img src={blog.imgs3} alt='' /><br />
               </div>
             </div>
           </div>
