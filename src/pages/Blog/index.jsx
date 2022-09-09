@@ -57,10 +57,10 @@ const Blog = () => {
             </div>
           </div>
           <div className='blog-refer'>
-            <h2> Referencias:</h2> 
+            <h2> Referencias:</h2> <br />
               {blog.refer.map((refer, i) => (
                 <div key={i}>
-                  <Referencs label={refer} /><br />
+                  <Referencs label={refer} />
                 </div>
               ))}
             </div>
