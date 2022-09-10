@@ -4,7 +4,7 @@ import './styles.css';
 const SearchBar = ({ value, handleSearchKey, clearSearch, formSubmit }) => (
         <div className="SearchBar-wrap">
             <form onSubmit={formSubmit}>
-                <input type="text" onChange={handleSearchKey} placeholder='Búsqueda' value={value} />
+                <input type="text" onChange={handleSearchKey} placeholder='Búsqueda por categoria' value={value} />
                 {value && <span onClick={clearSearch}>X</span>}
 
 
